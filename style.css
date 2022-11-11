@@ -1,0 +1,280 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  background-color: #e6b2af;
+}
+p {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: #e6b2af;
+  font-family: Avantt-Bold;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin: 0%;
+  padding: 15px;
+}
+
+h1 {
+  display: flex;
+  background-image: url("logo.h_fixad.png");
+  width: 100%;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 5%;
+}
+hr {
+  color: white;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin-top: 20px;
+  font-size: 40px;
+  justify-content: center;
+  margin-left: 5%;
+}
+.collage-img {
+  align-items: center;
+}
+
+.logga {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10%;
+  padding-bottom: 25px;
+}
+
+.img-haktet {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10%;
+  padding-bottom: 25px;
+  border-radius: 10px;
+}
+
+/* img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10%;
+  padding-bottom: 25px;
+} */
+
+a {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 45px;
+}
+h3 {
+  font-size: 20px;
+  margin-bottom: 0.7rem;
+  margin-top: 1.5rem;
+}
+
+.bread-text {
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  font-size: 20px;
+  line-height: 25px;
+}
+.meny-list {
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  font-size: 15px;
+  line-height: 30px;
+
+  margin-right: 10%;
+  padding-bottom: 2.5rem;
+}
+
+.nav-loggo {
+  display: flex;
+  margin-bottom: 15px;
+  align-items: flex-start;
+  flex-direction: column;
+  background-image: url("logga.png");
+  width: 100%;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+li {
+  list-style-type: none;
+}
+
+.link {
+  padding-top: 10px;
+}
+
+.main-footer {
+  margin-top: 20px;
+}
+.footer-wrap {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  margin-left: 7px;
+  margin-right: 15px;
+}
+
+.footer-img {
+  display: flex;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  background-image: url("logga.png");
+  width: 10%;
+  height: 45px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  justify-content: space-between;
+}
+.opening {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.soc-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 7px;
+  margin-left: 15px;
+}
+.footer_logga {
+  background-image: url("logo.h_fixad.png");
+  width: 100%;
+  height: 45px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.social-medias {
+  margin-left: 15px;
+  display: flex;
+}
+.social-media-button {
+  padding: 5px;
+  font-size: 40px;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    width: 100%;
+    height: 180px;
+    margin-left: 4%;
+  }
+  a {
+    font-size: 60px;
+  }
+  .nav-loggo {
+    width: 100%;
+    height: 95px;
+  }
+  h2 {
+    margin-top: 15px;
+    font-size: 75px;
+  }
+  h3 {
+    font-size: 35px;
+  }
+  .bread-text {
+    font-size: 30px;
+    line-height: 34px;
+  }
+
+  ol {
+    font-size: 25px;
+    line-height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .footer_logga {
+    height: 70px;
+    margin-left: 4%;
+  }
+  .soc-wrapper {
+    margin-top: 40px;
+  }
+
+  .social-media-button {
+    padding: 10px;
+    font-size: 70px;
+    margin-right: 20px;
+  }
+  .opening {
+    font-size: 30px;
+    margin-left: 4%;
+  }
+  .contact {
+    font-size: 30px;
+  }
+
+  .footer-img {
+    height: 65px;
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nav-loggo {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 95px;
+  }
+
+  .footer_logga {
+    height: 70px;
+    margin-left: 4%;
+  }
+  .soc-wrapper {
+    margin-top: 40px;
+  }
+
+  .social-media-button {
+    padding: 10px;
+    font-size: 70px;
+    margin-right: 30px;
+  }
+  .opening {
+    font-size: 30px;
+    margin-left: 4%;
+  }
+  .contact {
+    font-size: 30px;
+  }
+
+  .footer-img {
+    height: 65px;
+    margin-right: 30px;
+  }
+}
